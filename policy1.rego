@@ -1,4 +1,4 @@
-package terraform
+package terraform.rules.policy_11
 
 import future.keywords.in
 import input.plan as plan
@@ -16,7 +16,7 @@ array_contains(arr, elem) {
 }
 
 # METADATA
-# title: policy-1
+# title: policy-11
 # description: Ensure only a certain resource type is allowed.
 # custom:
 #  enforcement_level: mandatory

@@ -1,11 +1,11 @@
-package terraform
+package terraform.rules.policy_22
 
 # Check S3 bucket is not public
 
 import input.plan as plan
 
 # METADATA
-# title: policy-2
+# title: policy-22
 # description: random id is of specific length.
 # custom:
 #  enforcement_level: mandatory
