@@ -1,4 +1,4 @@
 policy "policyVCS" {
-  query = ""
-  enforcement_level = "mandatory"
+  query = "data.terraform.main.main"
+  enforcement_level = "advisory"
 }
