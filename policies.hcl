@@ -1,5 +1,5 @@
 policy "policyVCS" {
-  query = "data.terraform.rules[_].rule"
+  query = "data.terraform.main"
   enforcement_level = "advisory"
 }
 
