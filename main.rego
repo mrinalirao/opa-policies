@@ -1,5 +1,5 @@
 package terraform.main
 
 main[msg] {
-msg := data.terraform.rules[_].rule[_]
+msg := data.terraform.rules[_].rule
 }
